@@ -26,6 +26,7 @@ Public/
 Session/
 go/
 projects/
+Applications/
 omp.cache
 .Trash/
 .config/iTerm2/*
