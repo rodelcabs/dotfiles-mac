@@ -11,3 +11,6 @@
   st = status
   p = push -u origin HEAD
   l = log --graph
+[pull]
+	ff = only
+	rebase = true
