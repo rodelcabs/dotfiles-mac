@@ -1,0 +1,28 @@
+require "core.options"
+require "core.mappings"
+require "core.colorscheme"
+require "core.plugins"
+
+-- configs
+require "core.configs.cmp"
+require "core.configs.lsp"
+require "core.configs.telescope"
+require "core.configs.treesitter"
+require "core.configs.autopairs"
+require "core.configs.comment"
+--require "core.configs.indentline"
+require "core.configs.gitsigns"
+require "core.configs.bufferline"
+require "core.configs.nvimtree"
+require "core.configs.lsp.null-ls"
+require "core.configs.statusline"
+--require "core.configs.toggleterm"
+require "core.configs.autotag"
+--require "core.configs.alpha"
+-- require "core.configs.projects"
+require "core.configs.fidget"
+require "core.configs.outline"
+--require "core.configs.sidebar"
+-- require "core.configs.catppuccino"
+
+
