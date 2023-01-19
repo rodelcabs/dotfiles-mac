@@ -13,4 +13,4 @@
   l = log --graph
 [pull]
 	ff = only
-	rebase = true
+	rebase = false
