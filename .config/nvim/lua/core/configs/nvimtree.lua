@@ -137,10 +137,10 @@ nvim_tree.setup {
 
       icons = {
          show = {
-            file = false,
+            file = true,
             folder = true,
             folder_arrow = true,
-            git = false,
+            git = true,
          },
 
          glyphs = {
@@ -157,7 +157,7 @@ nvim_tree.setup {
                arrow_closed = "",
             },
             git = {
-               unstaged = "✗",
+               unstaged = "",
                staged = "✓",
                unmerged = "",
                renamed = "➜",

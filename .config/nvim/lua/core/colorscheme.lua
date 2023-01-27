@@ -1,7 +1,7 @@
 
 vim.cmd[[
 try
-  colorscheme NeoSolarized 
+  colorscheme ayu
   highlight SignColumn guibg = NONE
   highlight NormalFloat guibg = #0000
 catch /^Vim\%((\a\+)\)\=:E185/
