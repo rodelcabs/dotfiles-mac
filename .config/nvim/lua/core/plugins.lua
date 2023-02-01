@@ -47,7 +47,7 @@ return packer.startup(function(use)
   use "windwp/nvim-autopairs"
   use "numToStr/Comment.nvim"
   use "windwp/nvim-ts-autotag"
- -- use "lukas-reineke/indent-blankline.nvim"
+  --[[ use "lukas-reineke/indent-blankline.nvim" ]]
   use "kyazdani42/nvim-web-devicons"
   use "kyazdani42/nvim-tree.lua"
   use "akinsho/bufferline.nvim"
