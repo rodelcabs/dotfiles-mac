@@ -22,6 +22,7 @@ require "core.configs.autotag"
 -- require "core.configs.projects"
 require "core.configs.fidget"
 require "core.configs.outline"
+require "core.configs.lsp.java"
 --require "core.configs.sidebar"
 -- require "core.configs.catppuccino"
 

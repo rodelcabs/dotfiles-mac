@@ -81,6 +81,10 @@ return packer.startup(function(use)
   use "jose-elias-alvarez/null-ls.nvim"
   use "j-hui/fidget.nvim"
   use 'simrat39/symbols-outline.nvim'
+  use {
+    "mfussenegger/nvim-jdtls",
+    ft = { "Java" }
+  }
 
   use "xiyaowong/nvim-transparent"
   use "ryanoasis/vim-devicons"
