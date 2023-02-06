@@ -1,16 +1,18 @@
 [user]
 	name = rods
 	email = rodel.cabubas@asurion.com
+	signingkey = 0EE4C2F5BCABB592
 [credential]
 	helper = 
 	helper = /usr/local/share/gcm-core/git-credential-manager
-[credential "https://dev.azure.com"]
-	useHttpPath = true
 
 [alias]
   st = status
   p = push -u origin HEAD
   l = log --graph
+
 [pull]
 	ff = only
 	rebase = false
+[commit]
+	gpgsign = true
