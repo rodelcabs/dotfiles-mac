@@ -305,6 +305,16 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/rodel.cabubas/.local/share/nvim/site/pack/packer/start/vim-moonfly-colors",
     url = "https://github.com/bluz71/vim-moonfly-colors"
+  },
+  ["vim-tmux-navigator"] = {
+    loaded = true,
+    path = "/Users/rodel.cabubas/.local/share/nvim/site/pack/packer/start/vim-tmux-navigator",
+    url = "https://github.com/christoomey/vim-tmux-navigator"
+  },
+  ["vscode.nvim"] = {
+    loaded = true,
+    path = "/Users/rodel.cabubas/.local/share/nvim/site/pack/packer/start/vscode.nvim",
+    url = "https://github.com/Mofiqul/vscode.nvim"
   }
 }
 

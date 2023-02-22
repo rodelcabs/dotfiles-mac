@@ -70,6 +70,7 @@ return packer.startup(function(use)
   use "hrsh7th/cmp-nvim-lsp"
   use 'davidosomething/vim-colors-meh'
   use 'olivercederborg/poimandres.nvim'
+  use 'Mofiqul/vscode.nvim'
   -- snippets
   use "L3MON4D3/LuaSnip" --snippet engine
   use "rafamadriz/friendly-snippets" -- a bunch of snippets to use
@@ -102,6 +103,8 @@ return packer.startup(function(use)
   use "lewis6991/gitsigns.nvim"
   use "ahmedkhalf/project.nvim"
   use "sidebar-nvim/sidebar.nvim"
+    
+  use 'christoomey/vim-tmux-navigator'
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
