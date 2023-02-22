@@ -1,7 +1,7 @@
 
 vim.cmd[[
 try
-  colorscheme vscode
+  colorscheme darkplus
   hi NvimTreeNormal guibg=NONE ctermbg=NONE
 catch /^Vim\%((\a\+)\)\=:E185/
   colorscheme default

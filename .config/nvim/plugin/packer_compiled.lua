@@ -169,6 +169,16 @@ _G.packer_plugins = {
     path = "/Users/rodel.cabubas/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
   },
+  ["mason-lspconfig.nvim"] = {
+    loaded = true,
+    path = "/Users/rodel.cabubas/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
+    url = "https://github.com/williamboman/mason-lspconfig.nvim"
+  },
+  ["mason.nvim"] = {
+    loaded = true,
+    path = "/Users/rodel.cabubas/.local/share/nvim/site/pack/packer/start/mason.nvim",
+    url = "https://github.com/williamboman/mason.nvim"
+  },
   ["nlsp-settings.nvim"] = {
     loaded = true,
     path = "/Users/rodel.cabubas/.local/share/nvim/site/pack/packer/start/nlsp-settings.nvim",
@@ -300,6 +310,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/rodel.cabubas/.local/share/nvim/site/pack/packer/start/vim-devicons",
     url = "https://github.com/ryanoasis/vim-devicons"
+  },
+  ["vim-illuminate"] = {
+    loaded = true,
+    path = "/Users/rodel.cabubas/.local/share/nvim/site/pack/packer/start/vim-illuminate",
+    url = "https://github.com/RRethy/vim-illuminate"
   },
   ["vim-moonfly-colors"] = {
     loaded = true,
