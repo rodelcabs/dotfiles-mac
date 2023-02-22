@@ -2,7 +2,6 @@ require "core.options"
 require "core.mappings"
 require "core.colorscheme"
 require "core.plugins"
-
 -- configs
 require "core.configs.cmp"
 require "core.configs.lsp"

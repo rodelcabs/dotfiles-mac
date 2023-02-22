@@ -10,6 +10,8 @@
   st = status
   p = push -u origin HEAD
   l = log --graph
+  stg-bg = add ./src/*
+  unstg = restore --staged .
 
 [pull]
 	ff = only
