@@ -9,14 +9,15 @@ end
 
 local tree_cb = nvim_tree_config.nvim_tree_callback
 
-nvim_tree.setup {
-  disable_netrw = true,
-  hijack_netrw = true,
-  ignore_ft_on_setup = {
+nvim_tree.ignore_ft_on_setup = {
     "startify",
     "dashboard",
     "alpha",
-  },
+}
+
+nvim_tree.setup {
+  disable_netrw = true,
+  hijack_netrw = true,
   hijack_cursor = false,
   update_cwd = true,
   diagnostics = {
