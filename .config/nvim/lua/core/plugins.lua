@@ -47,7 +47,7 @@ return packer.startup(function(use)
   use "windwp/nvim-autopairs"
   use "numToStr/Comment.nvim"
   use "windwp/nvim-ts-autotag"
-  --[[ use "lukas-reineke/indent-blankline.nvim" ]]
+  use "lukas-reineke/indent-blankline.nvim"
   use "kyazdani42/nvim-web-devicons"
   use "kyazdani42/nvim-tree.lua"
   use "akinsho/bufferline.nvim"
@@ -55,6 +55,7 @@ return packer.startup(function(use)
   use 'nvim-lualine/lualine.nvim'
   use "akinsho/toggleterm.nvim"
   use 'arkav/lualine-lsp-progress'
+  use 'wfxr/minimap.vim'
   -- Colorschemes
   use "overcache/NeoSolarized"
   use "robertmeta/nofrils"
@@ -71,6 +72,7 @@ return packer.startup(function(use)
   use 'davidosomething/vim-colors-meh'
   use 'olivercederborg/poimandres.nvim'
   use 'Mofiqul/vscode.nvim'
+  use {"rockyzhang24/arctic.nvim", requires = {"rktjmp/lush.nvim"}}
   -- snippets
   use "L3MON4D3/LuaSnip" --snippet engine
   use "rafamadriz/friendly-snippets" -- a bunch of snippets to use

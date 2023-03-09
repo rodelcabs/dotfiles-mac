@@ -104,6 +104,11 @@ _G.packer_plugins = {
     path = "/Users/rodel.cabubas/.local/share/nvim/site/pack/packer/start/alpha-nvim",
     url = "https://github.com/goolord/alpha-nvim"
   },
+  ["arctic.nvim"] = {
+    loaded = true,
+    path = "/Users/rodel.cabubas/.local/share/nvim/site/pack/packer/start/arctic.nvim",
+    url = "https://github.com/rockyzhang24/arctic.nvim"
+  },
   ["ayu-vim"] = {
     loaded = true,
     path = "/Users/rodel.cabubas/.local/share/nvim/site/pack/packer/start/ayu-vim",
@@ -159,6 +164,11 @@ _G.packer_plugins = {
     path = "/Users/rodel.cabubas/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
   },
+  ["indent-blankline.nvim"] = {
+    loaded = true,
+    path = "/Users/rodel.cabubas/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
+    url = "https://github.com/lukas-reineke/indent-blankline.nvim"
+  },
   ["lualine-lsp-progress"] = {
     loaded = true,
     path = "/Users/rodel.cabubas/.local/share/nvim/site/pack/packer/start/lualine-lsp-progress",
@@ -169,6 +179,11 @@ _G.packer_plugins = {
     path = "/Users/rodel.cabubas/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
   },
+  ["lush.nvim"] = {
+    loaded = true,
+    path = "/Users/rodel.cabubas/.local/share/nvim/site/pack/packer/start/lush.nvim",
+    url = "https://github.com/rktjmp/lush.nvim"
+  },
   ["mason-lspconfig.nvim"] = {
     loaded = true,
     path = "/Users/rodel.cabubas/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
@@ -178,6 +193,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/rodel.cabubas/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
+  },
+  ["minimap.vim"] = {
+    loaded = true,
+    path = "/Users/rodel.cabubas/.local/share/nvim/site/pack/packer/start/minimap.vim",
+    url = "https://github.com/wfxr/minimap.vim"
   },
   ["nlsp-settings.nvim"] = {
     loaded = true,

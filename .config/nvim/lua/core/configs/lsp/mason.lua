@@ -7,7 +7,6 @@ local servers = {
 	"bashls",
 	"jsonls",
     "eslint",
-    "jdtls"
 }
 
 local settings = {

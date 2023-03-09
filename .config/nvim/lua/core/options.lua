@@ -33,7 +33,7 @@ vim.opt.wrap = false                            -- display lines as one long lin
 vim.opt.scrolloff = 8                           -- is one of my fav
 vim.opt.sidescrolloff = 8
 --vim.opt.guifont = "monospace:h17"               -- the font used in graphical neovim applications
-vim.g.transparent_enabled = true
+vim.g.transparent_enabled = false
 
 vim.g.python3_host_prog = '/opt/homebrew/bin/python3'
 
